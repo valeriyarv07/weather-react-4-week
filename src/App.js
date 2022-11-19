@@ -13,6 +13,5 @@ root.render(
     <div className="Weather">
       <Weather />
     </div>
-
   </StrictMode>
 );
