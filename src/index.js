@@ -20,7 +20,18 @@ root.render(
         aria-label="Loading Spinner"
         data-testid="loader"
       />
+         <div className="center">
+				This project was coded by Valeriia Rybakova and is {""}
+				<a
+					href="https://github.com/valeriyarv07/weather-react-4-week"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					open sourced on GitHub.
+				</a>
+			</div>
     </div>
+ 
 
   </StrictMode>
 );

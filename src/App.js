@@ -7,29 +7,10 @@ import Weather from "./Weather";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
-root.render(
-  <StrictMode>
-    <h1>Weather</h1>
+export default function App() {
+	return (
     <div className="Weather">
       <Weather />
-      <footer>
-				This project was coded by{" "}
-				<a
-					href="https://marvelous-crostata-b8703b.netlify.app"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Valeriia Rybakova
-				</a>{" "}
-				and is {""}
-				<a
-					href="https://github.com/valeriyarv07/weather-react-4-week"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					open sourced on GitHub.
-				</a>
-			</footer>
     </div>
-  </StrictMode>
-);
+	);
+  }
