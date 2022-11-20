@@ -12,6 +12,7 @@ root.render(
     <h1>Weather</h1>
     <div className="Weather">
       <Weather />
+      
     </div>
   </StrictMode>
 );
